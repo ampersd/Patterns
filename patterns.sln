@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patterns", "patterns\patterns.csproj", "{02EFC7BC-7A8D-4398-B148-807388323486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOutInDiffLangs", "InOutInDiffLangs\InOutInDiffLangs.csproj", "{6CA5DCC9-0F57-4DFA-804B-01A8588DED4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{02EFC7BC-7A8D-4398-B148-807388323486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02EFC7BC-7A8D-4398-B148-807388323486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02EFC7BC-7A8D-4398-B148-807388323486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA5DCC9-0F57-4DFA-804B-01A8588DED4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA5DCC9-0F57-4DFA-804B-01A8588DED4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA5DCC9-0F57-4DFA-804B-01A8588DED4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA5DCC9-0F57-4DFA-804B-01A8588DED4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 68f71fba-6033-40b0-b185-462638caa169
 	EndGlobalSection
 EndGlobal
